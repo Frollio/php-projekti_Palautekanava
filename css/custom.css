@@ -1,4 +1,4 @@
- 
+
 /* YLEISET */
 
 body {
@@ -25,11 +25,29 @@ h2 {
   font-size: 1.2em;
 }
 
-
-/* YLÄNAVIGAATIOPALKKI */
+/* NAVIGAATIOPALKKI */
 
 
 /* CONTAINER */
+
+
+/* TILASTOLAATIKOT */
+
+.tilastorivi {
+  width: 100%;
+  display: block;
+}
+
+.laatikko {
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  border: black 2px solid;
+}
+.tilasto-otsikko {
+  clear: both;
+  padding-top: 20px;
+}
 
 /* PALAUTEKOLUMNI */
 

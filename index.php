@@ -88,7 +88,7 @@ if (isset($_SESSION["kyselyvirhe"])) {
       
       <!-- Voit kertoa vapaasti... -->
       <label class="palaute_label">Mitkä asiat erityisesti vaikuttivat viihtymiseesi 
-        (maks. 500 merkkiä). Tähän vastaaminen ei ole pakollista.</label><br>
+        (maks. 500 merkkiä)? Tähän vastaaminen ei ole pakollista.</label><br>
       <textarea id="vaikuttivat_viihtymiseen" name="vaikuttivat_viihtymiseen" rows="6" max="500" value="diiba"></textarea><br><br>
     
       <!-- Kuinka paljon suosittelet... -->
