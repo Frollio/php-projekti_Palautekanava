@@ -1,18 +1,7 @@
 <?php
 
-  require_once ('funktiot/funktiot.php');
-
-  session_start();
-
-  /*
-  if (is_logged_in()) {
-    //echo 'user';
-    display_user_menu();
-  } else {
-    //echo 'looser';
-    display_nonuser_menu();
-  }
-  */
+require_once('funktiot/funktiot.php');
+session_start();
 
 ?>
 
@@ -36,7 +25,20 @@
 
 <body>
 
-<!-- Navigointipalkki -->
-<div class="topnav" id="myTopnav">
+<!-- NAVIGOINTIPALKKI-->
 
-</div>
+<!-- Navigointivalikko --->
+
+<!-- Käyttäjävalikko -->
+
+<?php
+/*
+if (is_logged_in()) {
+  //echo 'user';
+  display_user_menu();
+} else {
+  header('Location: kirjautuminen.php')
+  ;
+}
+*/
+?>
