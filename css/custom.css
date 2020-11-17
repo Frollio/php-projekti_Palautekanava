@@ -1,5 +1,5 @@
 
-/* YLEISET */
+/* ----- YLEISET ----- */
 
 body {
   margin: 0;
@@ -25,31 +25,130 @@ h2 {
   font-size: 1.2em;
 }
 
-/* NAVIGAATIOPALKKI */
 
 
-/* CONTAINER */
+/* ----- NAVIGAATIOPALKKI ----- */
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 100, 30);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/*.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
 
 
-/* TILASTOLAATIKOT */
+
+/* ----- CONTAINER ----- */
+
+
+
+/* ----- TILASTOLAATIKOT ----- */
 
 .tilastorivi {
   width: 100%;
   display: block;
 }
 
-.laatikko {
-  height: 150px;
-  margin: 5px;
+.tilastolaatikko {
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 5px;
-  border: black 2px solid;
+  border: rgb(0, 100, 30) 5px solid;
+  background-color: rgb(240, 240, 240);
 }
+
 .tilasto-otsikko {
   clear: both;
   padding-top: 20px;
 }
 
-/* PALAUTEKOLUMNI */
+.tilasto-otsikko2 {
+  width: 100%;
+}
+
+.vastaajat_taulukko {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(0, 100, 30);
+  background-color: rgb(240, 240, 240);
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: rgb(0, 100, 30);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(220, 220, 220)
+}
+
+
+
+/* ----- PALAUTEKOLUMNI ----- */
 
 .palautekolumni {
   max-width: 600px;
@@ -90,6 +189,10 @@ h2 {
   background-color: black;
 }
 
-/* FOOTER */
 
-/* MEDIA QUERY */
+
+/* ----- FOOTER ----- */
+
+
+
+/* ----- MEDIA QUERY ----- */
