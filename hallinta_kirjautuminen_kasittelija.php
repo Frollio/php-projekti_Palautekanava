@@ -5,7 +5,8 @@
 // Jos epäonnistuu: ohjataan sivulle kirjautuminen.php
 // Jos onnistuu: ohjataan sivulle hallinta_index.php
 
-require_once ('funktiot\funktiot.php');
+include_once('funktiot\funktiot.php');
+include_once('funktiot/funktiot.php');
 session_start();
 
 // Jos sähköposti on tyhjä: annetaan usernamelle tyhjä arvo (Onko tämä turhaa?)
