@@ -18,21 +18,3 @@ session_start();
 </head>
 
 <body>
-
-<!-- NAVIGOINTIPALKKI-->
-
-<!-- Navigointivalikko --->
-
-<!-- Käyttäjävalikko -->
-
-<?php
-/*
-if (is_logged_in()) {
-  //echo 'user';
-  display_user_menu();
-} else {
-  header('Location: kirjautuminen.php')
-  ;
-}
-*/
-?>

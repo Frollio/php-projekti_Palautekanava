@@ -31,8 +31,6 @@
 
 <!-- NAVIGOINTIPALKKI-->
 
-<?php//?>
-
 <div class="navbar">
 
   <!-- Hallintavalikko -->
@@ -48,21 +46,3 @@
   </div>
 
 </div>
-
-
-<?php
-
-/* ----- ON KIRJAUTUNUT: TULOSTETAAN KÄYTTÄJÄVALIKKO ----- 
-
-if (is_logged_in()) {
-  //echo 'user';
-  display_user_menu();
-} else {
-  header('Location: kirjautuminen.php')
-  ;
-}
- ----- EI OLE KIRJAUTUNUT: HERJATAAN ----- 
-echo '<a href="hallinta_kirjaudu_ulos_kasittelija.php">Kirjaudu ulos</a>';
-*/
-
-?>

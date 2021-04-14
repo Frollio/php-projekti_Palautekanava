@@ -1,8 +1,9 @@
 
 <?php
 
-require_once("..\palaute_rv_db.php");
-//db_testi();
+include_once("..\palaute_rv_db.php");
+include_once("../palaute_rv_db.php");
+
 
 function db_connect() {
   $repopalvelin = $GLOBALS['repopalvelin'];
